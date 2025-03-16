@@ -194,19 +194,19 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'March 18, 2025',
-        description: 'Deposit from Cargill Agriculture - XXXXXX4018',
+        description: 'Invoice from Cargill Construction - XXXXXX4018',
         status: 'Success',
         amount_usd: 8400.0
       },
       {
         dateTime: 'March 17, 2025',
-        description: 'Business Expense - Halliburton Energy - XXXXXX2937',
+        description: 'Business Expense - Halliburton Construction - XXXXXX2937',
         status: 'Success',
         amount_usd: -3100.25
       },
       {
         dateTime: 'March 16, 2025',
-        description: 'Deposit from General Motors Finance - XXXXXX7623',
+        description: 'Deposit from Bechtel Construction - XXXXXX7623',
         status: 'Success',
         amount_usd: 7200.0
       },
@@ -230,7 +230,7 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'March 12, 2025',
-        description: 'Payment to ExxonMobil Corporation - XXXXXX5743',
+        description: 'Payment to Turner Construction - XXXXXX5743',
         status: 'Success',
         amount_usd: -3200.0
       },
@@ -306,6 +306,6 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -245.67
       }
-    ]    
+    ]     
   }
 ];
