@@ -170,8 +170,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '***-***-****',
       email: 'c*@gmail.com',
       createdOn: '3/16/2025', // m/d/y
-      username: 'c',
-      password: 'c'
+      username: 'Cparker55',
+      password: 'Mercedes1970$'
     },
     bank_details: {
       account_type: 'Checking',
@@ -187,112 +187,10 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: 'March 1, 2025',
-        description: 'Purchase at Walmart - XXXXXX2738',
+        dateTime: 'March 19, 2025',
+        description: 'Wire Transfer from Macegroup - XXXXXX5567',
         status: 'Success',
-        amount_usd: -245.67
-      },
-      {
-        dateTime: 'March 2, 2025',
-        description: 'Direct Deposit from Employer - XXXXXX3429',
-        status: 'Success',
-        amount_usd: 3200.0
-      },
-      {
-        dateTime: 'March 3, 2025',
-        description: 'Grocery Shopping at Walmart - XXXXXX8561',
-        status: 'Success',
-        amount_usd: -132.45
-      },
-      {
-        dateTime: 'March 4, 2025',
-        description: 'Refund from Amazon - XXXXXX9175',
-        status: 'Success',
-        amount_usd: 75.5
-      },
-      {
-        dateTime: 'March 5, 2025',
-        description: 'Electronics Purchase at Best Buy - XXXXXX4720',
-        status: 'Success',
-        amount_usd: -899.99
-      },
-      {
-        dateTime: 'March 6, 2025',
-        description: 'Transfer from PayPal - XXXXXX2384',
-        status: 'Success',
-        amount_usd: 500.0
-      },
-      {
-        dateTime: 'March 7, 2025',
-        description: 'Dining at Olive Garden - XXXXXX1829',
-        status: 'Success',
-        amount_usd: -76.89
-      },
-      {
-        dateTime: 'March 8, 2025',
-        description: 'Gas Station Purchase - XXXXXX3917',
-        status: 'Success',
-        amount_usd: -54.32
-      },
-      {
-        dateTime: 'March 9, 2025',
-        description: 'Interest Credit from Bank - XXXXXX5821',
-        status: 'Success',
-        amount_usd: 15.75
-      },
-      {
-        dateTime: 'March 10, 2025',
-        description: 'Retail Shopping at Target - XXXXXX7629',
-        status: 'Success',
-        amount_usd: -189.5
-      },
-      {
-        dateTime: 'March 11, 2025',
-        description: 'American Airlines Ticket Purchase - XXXXXX9482',
-        status: 'Success',
-        amount_usd: -1833.0
-      },
-      {
-        dateTime: 'March 11, 2025',
-        description: 'Airbnb Booking - XXXXXX1119',
-        status: 'Success',
-        amount_usd: -1643.56
-      },
-      {
-        dateTime: 'March 12, 2025',
-        description: 'Payment to ExxonMobil Corporation - XXXXXX5743',
-        status: 'Success',
-        amount_usd: -3200.0
-      },
-      {
-        dateTime: 'March 13, 2025',
-        description: 'Invoice Payment to Ford Motors - XXXXXX3129',
-        status: 'Success',
-        amount_usd: -4500.75
-      },
-      {
-        dateTime: 'March 14, 2025',
-        description: 'Deposit from John Deere Farms - XXXXXX6825',
-        status: 'Success',
-        amount_usd: 5000.0
-      },
-      {
-        dateTime: 'March 15, 2025',
-        description: 'Payment to Chevron Oil & Gas - XXXXXX9473',
-        status: 'Success',
-        amount_usd: -2100.6
-      },
-      {
-        dateTime: 'March 16, 2025',
-        description: 'Deposit from General Motors Finance - XXXXXX7623',
-        status: 'Success',
-        amount_usd: 7200.0
-      },
-      {
-        dateTime: 'March 17, 2025',
-        description: 'Business Expense - Halliburton Energy - XXXXXX2937',
-        status: 'Success',
-        amount_usd: -3100.25
+        amount_usd: 1359015.0
       },
       {
         dateTime: 'March 18, 2025',
@@ -301,11 +199,113 @@ export const mockAccounts: Account[] = [
         amount_usd: 8400.0
       },
       {
-        dateTime: 'March 19, 2025',
-        description: 'Wire Transfer from Macegroup - XXXXXX5567',
+        dateTime: 'March 17, 2025',
+        description: 'Business Expense - Halliburton Energy - XXXXXX2937',
         status: 'Success',
-        amount_usd: 1359015.0
+        amount_usd: -3100.25
+      },
+      {
+        dateTime: 'March 16, 2025',
+        description: 'Deposit from General Motors Finance - XXXXXX7623',
+        status: 'Success',
+        amount_usd: 7200.0
+      },
+      {
+        dateTime: 'March 15, 2025',
+        description: 'Payment to Chevron Oil & Gas - XXXXXX9473',
+        status: 'Success',
+        amount_usd: -2100.6
+      },
+      {
+        dateTime: 'March 14, 2025',
+        description: 'Deposit from John Deere Farms - XXXXXX6825',
+        status: 'Success',
+        amount_usd: 5000.0
+      },
+      {
+        dateTime: 'March 13, 2025',
+        description: 'Invoice Payment to Ford Motors - XXXXXX3129',
+        status: 'Success',
+        amount_usd: -4500.75
+      },
+      {
+        dateTime: 'March 12, 2025',
+        description: 'Payment to ExxonMobil Corporation - XXXXXX5743',
+        status: 'Success',
+        amount_usd: -3200.0
+      },
+      {
+        dateTime: 'March 11, 2025',
+        description: 'Airbnb Booking - XXXXXX1119',
+        status: 'Success',
+        amount_usd: -1643.56
+      },
+      {
+        dateTime: 'March 11, 2025',
+        description: 'American Airlines Ticket Purchase - XXXXXX9482',
+        status: 'Success',
+        amount_usd: -1833.0
+      },
+      {
+        dateTime: 'March 10, 2025',
+        description: 'Retail Shopping at Target - XXXXXX7629',
+        status: 'Success',
+        amount_usd: -189.5
+      },
+      {
+        dateTime: 'March 9, 2025',
+        description: 'Interest Credit from Bank - XXXXXX5821',
+        status: 'Success',
+        amount_usd: 15.75
+      },
+      {
+        dateTime: 'March 8, 2025',
+        description: 'Gas Station Purchase - XXXXXX3917',
+        status: 'Success',
+        amount_usd: -54.32
+      },
+      {
+        dateTime: 'March 7, 2025',
+        description: 'Dining at Olive Garden - XXXXXX1829',
+        status: 'Success',
+        amount_usd: -76.89
+      },
+      {
+        dateTime: 'March 6, 2025',
+        description: 'Transfer from PayPal - XXXXXX2384',
+        status: 'Success',
+        amount_usd: 500.0
+      },
+      {
+        dateTime: 'March 5, 2025',
+        description: 'Electronics Purchase at Best Buy - XXXXXX4720',
+        status: 'Success',
+        amount_usd: -899.99
+      },
+      {
+        dateTime: 'March 4, 2025',
+        description: 'Refund from Amazon - XXXXXX9175',
+        status: 'Success',
+        amount_usd: 75.5
+      },
+      {
+        dateTime: 'March 3, 2025',
+        description: 'Grocery Shopping at Walmart - XXXXXX8561',
+        status: 'Success',
+        amount_usd: -132.45
+      },
+      {
+        dateTime: 'March 2, 2025',
+        description: 'Direct Deposit from Employer - XXXXXX3429',
+        status: 'Success',
+        amount_usd: 3200.0
+      },
+      {
+        dateTime: 'March 1, 2025',
+        description: 'Purchase at Walmart - XXXXXX2738',
+        status: 'Success',
+        amount_usd: -245.67
       }
-    ]
+    ]    
   }
 ];
