@@ -187,7 +187,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: 'March 19, 2025',
+        dateTime: 'March 18, 2025',
         description: 'Wire Transfer from Macegroup - XXXXXX5567',
         status: 'Success',
         amount_usd: 1359015.0
