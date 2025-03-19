@@ -23,6 +23,7 @@ export default function WarningModal() {
     localStorage.removeItem('loggedInUser');
     setIsVisible(false);
     router.push('/');
+    window.location.reload();
   };
 
   return (
