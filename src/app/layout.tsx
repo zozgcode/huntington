@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ProtectedRoute from "@/components/ProtectedRoute";
+import WarningModal from "@/components/WarningModal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,7 @@ export default function RootLayout({
           <p>For seamless transaction, Kindly view this page on a mobile device. Thanks</p>
         </div>
         <ProtectedRoute>
-          <div className="block md:hidden">{children}</div>
+          <div className="block md:hidden"><WarningModal />{children}</div>
         </ProtectedRoute>
       </body>
     </html>

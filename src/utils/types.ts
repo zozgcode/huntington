@@ -31,6 +31,7 @@ export interface Account {
     wireDate: boolean;
   };
   transaction_history: Transaction[];
+  showModal?: boolean;
 }
 
 export interface Transaction {

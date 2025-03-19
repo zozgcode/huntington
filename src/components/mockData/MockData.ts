@@ -164,14 +164,15 @@ export const mockAccounts: Account[] = [
   },
   {
     account_id: 'ACC002',
+    showModal: true,
     holder: {
       firstName: 'Chloe Parker',
       lastName: '',
       mobileNumber: '***-***-****',
       email: 'c*@gmail.com',
       createdOn: '3/16/2025', // m/d/y
-      username: 'Cparker55-8377383',
-      password: 'Mercedes1970$-83748737'
+      username: 'Cparker55',
+      password: 'Mercedes1970$'
     },
     bank_details: {
       account_type: 'Checking',
